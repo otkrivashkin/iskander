@@ -5,7 +5,7 @@
 }
 
 .container {
-    width: 960px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -32,6 +32,10 @@
 }
 
 /* HEADER */
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
 
 header {
     margin-top: 15px;
@@ -54,7 +58,6 @@ header {
 }
 .red-button button a {
     text-decoration:none;
-    line-height: 10px;
     vertical-align: middle;
     font-size: 13px;
 }
@@ -67,37 +70,99 @@ header {
     font-size: 25px;
 }
 
-/* NAV */
+/* NAV MENU */
 
 nav ul li {
     list-style: none;
-    width: 12.5%;
-    text-align: left;
+    overflow: hidden;
+    display: inline;
 }
 
 nav ul li a:hover {
     opacity: 0.5;
 }
 
-nav ul li:last-child {
-    padding-right: 0; 
-}
-
-nav ul li:nth-child(n+4) {
-    text-align: center;
-}
-
-nav ul li a {
+nav a {
     text-decoration: none;
     display: block;
-    line-height: 45px;
+    padding: 15px 30px;
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;   
+    float: left;
 }
 
 .black-bg {
     background-color: #000;
 }
+
+/* FIRST PART */
+
+.first-part {
+    height: 770px;
+    background-image: url(../img/slider/slider_image_1.png);
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.first-part h2 {
+    font-size: 45px;
+}
+
+.first-part form h2,
+.first-part form p {
+    color: #fff;
+    text-align: center;
+}
+
+
+.form-application {
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 410px;
+    height: 380px;
+/*    transform: skewY(-20deg);*/
+}
+
+.form-application form {
+/*    transform: skewY(20deg);*/
+    padding: 40px;
+}
+
+.form-application input,
+.form-application button{
+    display: block;
+    margin: auto;
+}
+
+.form-application input {
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.form-application form p {
+    font-size: 30px;
+}
+
+.form-application form button {
+    font-size: 18px;
+    padding: 20px 60px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
