@@ -72,23 +72,30 @@ header {
 
 /* NAV MENU */
 
-nav ul li {
-    list-style: none;
-    overflow: hidden;
-    display: inline;
+nav menu {
+	display: table;
+	width: 100%;
+}
+
+menu ul {
+	display: table-row;
+}
+
+menu li {
+	display: table-cell;
+}
+
+menu a {
+	width: 100%;
+	display: inline-block;
+	padding: 12px 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
 }
 
 nav ul li a:hover {
     opacity: 0.5;
-}
-
-nav a {
-    text-decoration: none;
-    display: block;
-    padding: 15px 30px;
-    color: #fff;
-    font-size: 16px;   
-    float: left;
 }
 
 .black-bg {
