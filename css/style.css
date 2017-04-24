@@ -195,10 +195,41 @@ div.text-box p {
 	transform: skew(0, 5deg);
 }
 
-/* --------------------------------------------- */
+/* -------------------- SECOND-PART ------------------------- */
 
+.second-part {
+	margin-bottom: 200px;
+}
 
+.second-part img {
+	max-width: 230px;
+	display:block;
+	height: 145px;
+}
 
+.second-part h2 {
+	margin: 70px 0 80px 0;
+	font-size: 45px;
+	text-align: center;
+}
+
+.second-part ul {
+	display: block;
+	text-align: center;
+}
+
+.second-part li {
+	display: inline-block;
+	margin: 5px;
+}
+
+.second-part p {
+	font-size: 25px;
+	margin-top: 25px;
+	
+}
+
+/*---------------------- THIRD-PART ----------------------------*/
 
 
 
