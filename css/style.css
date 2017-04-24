@@ -31,7 +31,7 @@
     font-weight: 700;
 }
 
-/* HEADER */
+/* ----------------- HEADER --------------------- */
 .logo img {
     max-width: 100%;
     height: auto;
@@ -70,9 +70,9 @@ header {
     font-size: 25px;
 }
 
-/* NAV MENU */
+/* ---------------- NAV MENU -------------------*/
 
-nav menu {
+menu {
 	display: table;
 	width: 100%;
 }
@@ -92,6 +92,7 @@ menu a {
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
+	font-size: 18px;
 }
 
 nav ul li a:hover {
@@ -102,7 +103,7 @@ nav ul li a:hover {
     background-color: #000;
 }
 
-/* FIRST PART */
+/* ---------------- FIRST PART ------------------------- */
 
 .first-part {
     height: 770px;
@@ -112,57 +113,89 @@ nav ul li a:hover {
     background-repeat: no-repeat;
 }
 
+
 .first-part h2 {
     font-size: 45px;
 }
 
-.first-part form h2,
-.first-part form p {
-    color: #fff;
-    text-align: center;
+.first-part > h2 {
+	width: 70%;
+	text-align: center;
+	padding-top: 60px;
 }
 
 
-.form-application {
-    display: inline-block;
-    background-color: red;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 410px;
-    height: 380px;
-/*    transform: skewY(-20deg);*/
+		/* >>> FORM  */
+		/*410 * 410*/
+#form {
+	background-color: #c31e2f;
+	display: inline-block;
+	position: absolute;
+	left: 40%;
+	top: 30%;
+	text-align: center;
+	width: 410px;
+	height: 410px;
+	transform: skew(0, -5deg);
+}
+#form input, 
+#form h2, 
+#form p,
+#form button {
+	transform: skew(0, 5deg);
+}
+#form input {
+	display: block;
+	margin: auto;
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	width: 80%;
+	color: #6e6e6e;
+}
+#form h2 {
+	margin-top: 35px;
+	color: #fff;
 }
 
-.form-application form {
-/*    transform: skewY(20deg);*/
-    padding: 40px;
+#form p {
+	font-size: 30px;
+	color: #fff;
+	margin: 30px 12px 40px 12px;
+	font-family: 'Scada';
+	font-weight: 700;
+	line-height: 85%;
+}
+#form button {
+	padding: 10px 12px;
+	width: 65%;
+	border-radius: 5px;
+	background-color: #868686;
+	color: #fff;
+	text-transform: uppercase;
+}
+		/* >>> TEXT-BOX  */
+		/*230 * 270*/
+div.text-box {
+	display: inline-block;
+	height: 230px;
+	width: 270px;
+	background-color: rgba(35, 32, 27, 0.95);
+	transform: skew(0, -5deg);
+	position: absolute;
+	top: 45%;
+	left: 24.5%;
 }
 
-.form-application input,
-.form-application button{
-    display: block;
-    margin: auto;
+div.text-box p {
+	margin: 50px 27px 40px 10px;
+	font-size: 23px;
+	color: #fff;
+	text-align: right;
+	transform: skew(0, 5deg);
 }
 
-.form-application input {
-    padding: 10px 5px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-
-.form-application form p {
-    font-size: 30px;
-}
-
-.form-application form button {
-    font-size: 18px;
-    padding: 20px 60px;
-}
-
-
-
+/* --------------------------------------------- */
 
 
 
