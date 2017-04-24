@@ -381,6 +381,79 @@ div.text-box p {
     padding-left: 120px;    
 }
 
+/*------------- SIXTH-PART -------------------*/
+
+.sixth-part ul {
+    width: 100%;
+/*    display: block;*/
+    text-align: center;
+}
+
+.sixth-part li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.sixth-part li:not(:last-child):after {
+    content: "||";
+    padding-left: 5px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sixth-part a {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.sixth-part li:hover a {
+    color: red; /* <-- need rgb */
+}
+
+.sixth-part h2 {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+
+
+.sixth-part .gallery {
+    text-align: center;
+}
+
+.sixth-part .gallery img {
+    max-width: 200px;
+    margin: 15px 14px;
+}
+
+.sixth-part .partner img {
+    max-width: 250px;
+    vertical-align: middle;
+}
+
+.sixth-part .partner {
+    text-align: center;
+}
+
+/*
+.sixth-part div:after {
+    content: "";
+    display: block;
+    border: 1px solid grey;
+}
+*/
+
+
+
+
+
+
+
 
 
 
