@@ -103,7 +103,7 @@ nav ul li a:hover {
     background-color: #000;
 }
 
-/* ---------------- FIRST PART ------------------------- */
+/* ---------------- FIRST-PART ------------------------- */
 
 .first-part {
     height: 770px;
@@ -231,11 +231,63 @@ div.text-box p {
 
 /*---------------------- THIRD-PART ----------------------------*/
 
+.third-part {
+    height: 1000px;
+    background: url(../img/reason/big_middle_image_1.png) no-repeat center;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+}
 
+.third-part h2 {
+	font-size: 45px;
+	text-align: center;
+	margin: 140px 0 70px 0;
+}
 
+.third-part .box-reason {
+	text-align: center;
+}
 
+.third-part .box-reason li {
+	width: 45%;
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
 
+.third-part p {
+	font-size: 18px;
+	font-weight: 700;
+}
 
+.third-part h3 {
+	font-size: 25px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.third-part .box-reason h3, .third-part .box-reason p {
+	max-width: 340px;
+	margin-left: 70px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+.third-part .bg {
+	background-color: #000;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 20px;
+	margin-right: 20px;
+}
+
+.third-part img {
+	width: 60px;
+	height: 60px;
+	float: left;	
+}
 
 
 
