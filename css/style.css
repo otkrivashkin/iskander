@@ -31,6 +31,7 @@
     font-weight: 700;
 }
 
+
 /* ----------------- HEADER --------------------- */
 .logo img {
     max-width: 100%;
@@ -101,6 +102,8 @@ nav ul li a:hover {
 
 .black-bg {
     background-color: #000;
+	z-index: 12;
+	position: relative;
 }
 
 /* ---------------- FIRST-PART ------------------------- */
@@ -199,7 +202,8 @@ div.text-box p {
 /* -------------------- SECOND-PART ------------------------- */
 
 .second-part {
-	margin-bottom: 200px;
+	background-color: #fff;
+	min-height: 520px;
 }
 
 .second-part img {
@@ -209,7 +213,7 @@ div.text-box p {
 }
 
 .second-part h2 {
-	margin: 70px 0 80px 0;
+	padding: 70px 0 80px 0;
 	font-size: 45px;
 	text-align: center;
 }
