@@ -351,8 +351,6 @@ div.text-box p {
 	transform: skewY(3deg);
 	margin-top: -65px;
 	padding-top: 70px;
-	
-		
 }
 
 .fifth-part .foreground {
@@ -416,6 +414,7 @@ div.text-box p {
     font-size: 25px;
     padding-left: 120px;    
 }
+
 
 /*------------- SIXTH-PART -------------------*/
 
@@ -489,9 +488,21 @@ hr {
 	background-color: black;
 }
 
+.skew-six {
+	height: 950px;
+	transform: skewY(3deg);
+	overflow: hidden;
+/*	border: 2px dashed black;*/
+}
+
 .sixth-part .review {
-    height: 1000px;
-    background: url(../img/review/big_kitchen_3.png) no-repeat center; /* background image for review block*/
+    height: 1150px;
+    background: url(../img/review/big_kitchen_3.png) no-repeat center center fixed; /* background image for review block*/
+	background-size: cover;
+	transform: skewY(-3deg);
+	margin-top: -100px;
+	padding-top: 50px;
+	
 }
 
 .sixth-part .review li:nth-child(odd) {
