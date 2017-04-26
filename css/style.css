@@ -108,14 +108,21 @@ nav ul li a:hover {
 
 /* ---------------- FIRST-PART ------------------------- */
 
-.first-part {
-    height: 770px;
-    background-image: url(../img/slider/slider_image_1.png);
-    background-position: center;
-    position: relative;
-    background-repeat: no-repeat;
+.skew-one {
+	height: 850px; /*7. ... */
+	transform: skewY(-3deg);
+	overflow: hidden; /*6. ... */
+	margin-top: -65px; /* 5. ... */
 }
 
+.first-part {
+	background: url(../img/slider/slider_image_1.png) no-repeat center center fixed; /*1. fix the image */
+	background-size: cover; /*2. image cover background */
+	transform: skewY(3deg);
+    height: 870px; /* 3. inner container must be bigger than outer container*/
+    position: relative;
+	margin-top: 60px; /*4. ... */
+}
 
 .first-part > h2 {
     font-size: 45px;
@@ -199,6 +206,7 @@ div.text-box p {
 	transform: skew(0, 5deg);
 }
 
+
 /* -------------------- SECOND-PART ------------------------- */
 
 .second-part {
@@ -236,12 +244,20 @@ div.text-box p {
 
 /*---------------------- THIRD-PART ----------------------------*/
 
+.skew-three {
+	height: 900px;
+	transform: skewY(3deg);
+	overflow: hidden; 
+}
+
 .third-part {
-    height: 1000px;
-    background: url(../img/reason/big_middle_image_1.png) no-repeat center;
-    background-position: center;
+    height: 1100px;
+    background: url(../img/reason/big_middle_image_1.png) no-repeat center center fixed;
+	background-size: cover;
     position: relative;
-    background-repeat: no-repeat;
+	transform: skewY(-3deg);
+	background-position: bottom left;
+	margin-top: -100px;
 }
 
 .third-part h2 {
