@@ -489,10 +489,11 @@ hr {
 }
 
 .skew-six {
+	z-index: 20;
+	position: relative;
 	height: 950px;
 	transform: skewY(3deg);
 	overflow: hidden;
-/*	border: 2px dashed black;*/
 }
 
 .sixth-part .review {
@@ -552,14 +553,24 @@ hr {
 
 .seventh-part {
     height: 1000px;
-    background: url(../img/part_2/instruments.png) no-repeat center; /* background image for review block*/
-}
+    background: url(../img/part_2/bg_1.jpg) no-repeat center center;
+	background-size: cover;
+	position: relative;
+	top: -120px;
+}	
 
+/*
 .seventh-part .foreground {
 	height: 1000px;
-    background: url(../img/part_2/step_big_transparent.png) no-repeat center; /* background image for review block*/
+    background: url(../img/part_2/step_big_transparent.png) no-repeat center center fixed;
 	padding-top: 170px;
 	position: relative;
+}
+*/
+
+.seventh-part .box {
+	position: absolute;
+	top: 300px;
 }
 
 .seventh-part img {
@@ -579,15 +590,10 @@ hr {
 
 .seventh-part h2 {
 	font-size: 45px;
+	display: block;
 	text-transform: uppercase;
 	position: absolute;
-	left: 14%;
 	top: 20%;
-}
-
-.seventh-part .box {
-	margin-top: 100px;
-	margin: 15% 0 0 -20%;
 }
 
 .seventh-part ul {
@@ -598,7 +604,7 @@ hr {
 	overflow: hidden;
 	display: inline-block;
 	vertical-align: top;
-	margin-bottom: 5%;
+	margin-bottom: 120px;
 }
 
 .seventh-part p {
@@ -618,26 +624,29 @@ hr {
 .seventh-part .arrow.three {
 	transform: rotate(90deg);
 	position: absolute;
-	top: 38%;
-	right: 37%;
+	top: 90px;
+	right: 0;
 	
 }
 
 .seventh-part .arrow.four,
 .seventh-part .arrow.five {
 	transform: rotate(180deg);
+	left: -20px;
+	position: relative;
 }
 
 .seventh-part .arrow.six {
 	transform: rotateZ(90deg) rotateX(180deg);
 	position: relative;
-	top: -90px;	
+	bottom: 150px;	
 	left: -50px;
 }
 
 .seventh-part ul:last-child {
 	position: relative;
 	bottom: 65px;
+	margin-top: -50px;
 }
 
 /*------------------------ EIGHTH-PART -----------------------------*/
