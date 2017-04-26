@@ -362,7 +362,7 @@ div.text-box p {
 }
 
 .fifth-part ul {
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .fifth-part li {
@@ -378,11 +378,11 @@ div.text-box p {
     text-align: center;
     margin-top: 65px;
     text-transform: uppercase;
-    margin-left: 50px;
 }
 
 .fifth-part p {
     font-size: 25px;
+	max-width: 93%;
 }
 
 .fifth-part img {
@@ -420,7 +420,6 @@ div.text-box p {
 
 .sixth-part ul {
     width: 100%;
-/*    display: block;*/
     text-align: center;
 }
 
@@ -650,10 +649,22 @@ hr {
 
 /*------------------------ EIGHTH-PART -----------------------------*/
 
+.skew-eight {
+	height: 640px;
+	transform: skewY(-3deg);
+	overflow: hidden;
+	top: -250px;
+	position: relative;
+}
+
 .eighth-part {
-    height: 720px;
+    height: 680px;
     background: url(../img/part_3/bg_1.jpg) no-repeat center; /* background image for review block*/
 	position: relative;
+	background-size: cover;
+	transform: skewY(3deg);
+	margin-top: -90px;
+/*	bottom: -60px;*/
 }
 
 /*------------------------ FOOTER ----------------------------------*/
@@ -662,6 +673,9 @@ footer {
 	height: 160px;
 	background-color: #000;
 	padding-top: 15px;
+	position: relative;
+	top: -320px;
+	margin-bottom: -120px;
 }
 
 footer .clean {
